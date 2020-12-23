@@ -1,14 +1,12 @@
 # Examen Teórico Práctico Angular y Node.js
 
-## Formulario de datos de usuario
-* Input de documento de usuario usando validadores de reactive forms de angular
-* Input de nombre de usuario usando validadores de reactive forms de angular
-* Boton Submit de envio de formulario validando inputs por medio de reactive forms
-* Campo oculto/deshabilitado de documento cifrado del usuario 
+## API rest
+API para el manejo de peticiones crud
 
-## Descripcion reactive forms
-Reactive forms de angular, provee distintos metodos por los cuales validar el estado de los campos que componen un formulario, volviendolo estricto, es decir, recibiendo solo el tipo de data requerida por el formulario, evitando de esta manera el envio de datos erroneos a las API's que correspondan. Más información en: https://angular.io/guide/reactive-forms
-### Formulario desde component
+## Descripcion de la API
+API desarrollada usando node js, usando como lenguaje de tipado estricto TypeScript, y como libreria principal express.
+
+### Visto de petición request
 ![image](https://user-images.githubusercontent.com/45348200/102944200-1a27f780-4488-11eb-8672-fb0ffd75ba9b.png)
 
 ### Vista del formulario con data valida
