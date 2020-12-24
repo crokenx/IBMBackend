@@ -18,14 +18,4 @@ router.post("/recepcionFormulario", (req: any, res) => {
   res.status(201).json("¡DATOS RECIBIDOS!");
 });
 
-const desencriptar = (encryptedDocument: any) => {
-  console.log("encrypted message", encryptedDocument);
-  const pk = forge.pki.privateKeyFromPem(PRIVATE_KEY);
-  const buffer = forge.util.createBuffer(encryptedDocument);
-  const binaryString = buffer.getBytes();
-  const documento = pk.decrypt(binaryString, "RSA-OAEP");
-
-  console.log("documento desencriptado", documento);
-};
-
 export = router;
